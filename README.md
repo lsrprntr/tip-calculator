@@ -1,5 +1,5 @@
 # tip-calculator
-Calculates tips and split.
+Simple app that calculates tips by percentage and split by people.
 
 
 
