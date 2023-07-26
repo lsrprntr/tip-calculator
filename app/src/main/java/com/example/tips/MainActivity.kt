@@ -102,11 +102,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateDesc(tipPercent: Int) {
         val tipDescription = when (tipPercent) {
-            in 0..9 -> "Poor"
-            in 10..14 -> "Acceptable"
-            in 15..19 -> "Good"
-            in 20..24 -> "Great"
-            else -> "Amazing"
+            in 0..9 -> "Bad"
+            in 10..14 -> "Poor"
+            in 15..19 -> "Okay"
+            in 20..24 -> "Acceptable"
+            in 25..29 -> "Incredible"
+            in 30..39 -> "Amazing"
+            in 40..49 -> "Spectacular"
+            else -> "Transcendental experience!"
         }
         tvDesc.text = tipDescription
         //update color
